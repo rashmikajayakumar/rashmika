@@ -1,0 +1,4 @@
+var playerName = "Kandra";
+var locationName = "The Dungeon of Doom";
+
+console.log(playerName + " is in " + locationName);
