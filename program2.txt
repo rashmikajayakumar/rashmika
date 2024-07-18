@@ -1,0 +1,5 @@
+var player = "Alice";
+var level = 3;
+console.log("Score:", score);
+console.log("Player:", player);
+console.log("Level:", level);
