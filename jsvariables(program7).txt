@@ -1,0 +1,7 @@
+var playerName;
+var locationName;
+
+playerName = "Lionel Messi";
+locationName = "Argentina";
+
+console.log(playerName + " is in " + locationName);
