@@ -1,0 +1,31 @@
+var bookTitle;
+var bookAuthor;
+
+bookTitle = "The Hobbit";
+bookAuthor = "J. R. R. Tolkien";
+
+console.log(bookTitle + " by " + bookAuthor);
+
+
+
+var bookTitle2 = "1984";
+var bookAuthor2 = "George Orwell";
+
+console.log(bookTitle2 + " by " + bookAuthor2);
+
+var bookTitle3 = "To Kill a Mockingbird";
+var bookAuthor3 = "Harper Lee";
+
+
+console.log(bookTitle3 + " by " + bookAuthor3);
+
+
+var books = [
+    { title: "The Hobbit", author: "J. R. R. Tolkien" },
+    { title: "1984", author: "George Orwell" },
+    { title: "To Kill a Mockingbird", author: "Harper Lee" },
+    // Add more books as needed
+];
+books.forEach(function(book, index) {
+    console.log("Book " + (index + 1) + ": " + book.title + " by " + book.author);
+});
